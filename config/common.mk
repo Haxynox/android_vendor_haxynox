@@ -1,8 +1,16 @@
 #Bootanimation
-ifneq ($(filter i9300 n7100,$(TARGET_DEVICE)),)
 PRODUCT_COPY_FILES += \
     vendor/haxynox/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
-endif
+
+# exfat
+PRODUCT_PACKAGES += \
+    fsck.exfat \
+    mount.exfat \
+    mkfs.exfat \
+    libexfat \
+    libexfat_static \
+    libfuse \
+    libfuse_static
 
 #Launcher
 PRODUCT_PACKAGES += \

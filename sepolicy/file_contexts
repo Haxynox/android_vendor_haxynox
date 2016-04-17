@@ -1,0 +1,5 @@
+# For EXFAT partitions marked "formattable"
+/system/bin/mkfs\.exfat   u:object_r:mkfs_exec:s0
+
+# fsck
+/system/bin/fsck\.exfat                         u:object_r:fsck_exec:s0
