@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
     libexfat_static \
     libexfat_fsck_static \
     libexfat_mkfs_static \
-    libexfat_mount_static 
+    libexfat_mount_static \
     libfuse \
     libfuse_static
 
