@@ -17,6 +17,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/haxynox/overlay/common
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/haxynox/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/haxynox/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+
 #Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/haxynox/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
