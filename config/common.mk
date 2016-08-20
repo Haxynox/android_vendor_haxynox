@@ -28,4 +28,5 @@ PRODUCT_COPY_FILES += \
 
 #Launcher
 PRODUCT_PACKAGES += \
-    Launcher3
+    Launcher3 \
+    busybox
